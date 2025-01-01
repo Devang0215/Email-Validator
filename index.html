@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="nav">
+        <div class="logo"><img src="images/logo.png" alt="" srcset=""></div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="container">
+            <h2>Welcome To Email Validator </h2>
+            <!-- Text input for username -->
+            <label for="username">Email:</label>
+            <input type="text" id="email" name="username" required placeholder="Enter Your Email">
+            <!-- Submit button -->
+            <button class="btn" onclick="validate()">Submit</button>
+        </div>
+        <div class="container">
+            <div id="answer">
+
+            </div>
+        </div>
+    </main>
+    <footer>
+        Copyright Validator | All Rights Reserved
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins", serif;
+}
+
+.nav {
+    display: flex;
+    padding: 0px 10px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img{
+    width: 130px;
+    height: 78px;
+}
+ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+ul li {
+    list-style: none;
+    padding: 0px 30px;
+}
+ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+ul li a:hover
+{
+    color:yellow;
+}
+main{
+    min-height: 80vh;
+}
+.container
+{
+    background-color: rgb(240, 255, 255);
+    max-width: 80vw;
+    margin: 30px auto;
+    padding: 30px;
+}
+label{
+    font-size: large;
+}
+#email
+{
+    width:500px;
+    padding :12px;
+    font-size: large;
+    font-family: poppins;
+    font-weight: 700;
+}
+#answer div::first-letter{
+    text-transform: uppercase;
+}
+.btn
+{
+    padding: 6px;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 10px;
+    border: 2px solid grey;
+}
+footer
+{
+    font-size: small;
+    display: flex;
+    padding: 18px 10px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    justify-content:center;
+    align-items: center;
+}
+
+/* media queery for responsiveness */
+
+@media screen and (max-width: 480px) {
+    .container{
+        font-size: 12px;
+    }
+    nav{
+        flex-direction: column;
+        
+    }
+    nav ul
+    {
+        padding-bottom: 30px;
+    }
+  }
